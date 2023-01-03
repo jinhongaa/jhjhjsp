@@ -26,7 +26,7 @@
 	</div>
 	<input type="submit" value="save" />
 	<input type="button" value="cancel" class="cancel" /><br />
-	<a href="notice.jsp">목록</a>
+	<a href="notice.do">목록</a>
 </form>
 </body>
 </html>
