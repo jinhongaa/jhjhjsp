@@ -1,0 +1,19 @@
+테이블을 변경미션
+mvc1 변형
+ctrl+shift+y 소문자
+
+controller만들기
+extend HttpServlet 상속 
+service method
+doget+dopost=service
+
+web.xml에 추가
+<!-- servlet sertting -->
+<servlet>
+	<servlet-name>dispatcher</servlet-name>
+	<servlet-class>notice.controller.MyDispatcher</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>dispatcher</servlet-name>
+	<url-pattern>*.do</url-pattern>
+</servlet-mapping>
