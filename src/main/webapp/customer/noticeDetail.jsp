@@ -75,7 +75,7 @@
 	</tbody>
 </table>
 <a href="noticeEdit.do?c=${n.seq}">수정</a>
-<a href="delProc.jsp?c=${n.seq}">삭제</a>
+<a href="delProc.do?c=${n.seq}">삭제</a>
 <a href="notice.do">목록</a>
 </body>
 </html>
